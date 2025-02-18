@@ -1,0 +1,83 @@
+.userTable{
+    width: 60%;
+    background-color: white;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 50px;
+}
+.addbtn{
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+    font-weight: 500;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.userTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+.userTable table th{
+    background-color:darkgreen;
+    color: white;
+    padding:10px;
+}
+.userTable table tbody td{
+    padding: 10px;
+    text-align: center;
+}
+.actionButton button{
+    border:0;
+    outline: none;
+    background-color: red;
+    padding: 8px 10px;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.actionButton a{
+    text-decoration: none;
+    background-color: rgb(9, 247, 120);
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    margin:0 10px;
+   
+}
+/* Style for the Undo Section */
+.undoSection {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style for the Undo Button */
+.undoButton {
+    background-color: #f44336; /* Red background to indicate an action */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for Undo Button */
+.undoButton:hover {
+    background-color: #d32f2f;
+}
+
+/* Focus effect for Undo Button */
+.undoButton:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 87, 34, 0.7);
+}
+
+/* Style for the Undo Button when the user is about to click */
+.undoButton:active {
+    background-color: #c62828;
+}

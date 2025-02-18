@@ -1,0 +1,82 @@
+/* Centering the form */
+.adduser {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Back button styling */
+  .backbtn {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #fff;
+    background: #3498db;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .backbtn:hover {
+    background: #217dbb;
+  }
+  
+  /* Form styling */
+  .adduserform {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Label styling */
+  .inputGroup label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  /* Input fields */
+  .inputGroup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .inputGroup input:focus {
+    border: 1px solid #3498db;
+  }
+  
+  /* Submit button */
+  .inputGroup button {
+    width: 100%;
+    padding: 10px;
+    background: #2ecc71;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .inputGroup button:hover {
+    background: #27ae60;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .adduser {
+      width: 90%;
+      padding: 15px;
+    }
+  }
+  
